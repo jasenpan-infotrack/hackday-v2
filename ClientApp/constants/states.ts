@@ -1,0 +1,9 @@
+﻿export const NOTAPPLICABLE = 1;
+export const NSW = 2;
+export const VIC = 3;
+export const QLD = 4;
+export const ACT = 5;
+export const WA = 6;
+export const SA = 7;
+export const NT = 8;
+export const TAS = 9;

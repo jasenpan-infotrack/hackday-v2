@@ -20,16 +20,16 @@
       "integrity": "sha1-+wrQS1tvbqvgNyoyqPH7ulwTDK4="
     },
     "@types/react": {
-      "version": "15.0.35",
-      "resolved": "https://registry.npmjs.org/@types/react/-/react-15.0.35.tgz",
-      "integrity": "sha1-RnKSPNUC0D4UgNA4FuvFpxn7hto="
+      "version": "16.0.19",
+      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.0.19.tgz",
+      "integrity": "sha512-0M27ZfEYJhQYJ+uYouV7Bd70eNOCp8OxWUSc+etg33lb8Jq7rTmvBKIWUQwx+HquSsNqlk+5PAcmNTTxJKYUsg=="
     },
     "@types/react-dom": {
       "version": "15.5.1",
       "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-15.5.1.tgz",
       "integrity": "sha1-88PhTGgnhZI8fWRYNTffMZRC3sE=",
       "requires": {
-        "@types/react": "15.0.35"
+        "@types/react": "16.0.19"
       }
     },
     "@types/react-dropzone": {
@@ -37,7 +37,7 @@
       "resolved": "https://registry.npmjs.org/@types/react-dropzone/-/react-dropzone-4.1.0.tgz",
       "integrity": "sha512-dJ7oIzcafv9LXMVF/dT1sFthzpZth6SRyDVulAE1MWsO/kkCO5dwfFpQKqCR01a55N/UTbFoVkp5F0areEcPNQ==",
       "requires": {
-        "@types/react": "15.0.35"
+        "@types/react": "16.0.19"
       }
     },
     "@types/react-hot-loader": {
@@ -45,7 +45,7 @@
       "resolved": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.3.tgz",
       "integrity": "sha1-7gKxmZwicTQY4ZjMPrCQt+ds5ZI=",
       "requires": {
-        "@types/react": "15.0.35"
+        "@types/react": "16.0.19"
       }
     },
     "@types/react-redux": {
@@ -53,7 +53,7 @@
       "resolved": "https://registry.npmjs.org/@types/react-redux/-/react-redux-4.4.45.tgz",
       "integrity": "sha1-r62FHYWSEZIlqmvMQCx/a5x+QQY=",
       "requires": {
-        "@types/react": "15.0.35",
+        "@types/react": "16.0.19",
         "redux": "3.7.1"
       }
     },
@@ -63,7 +63,7 @@
       "integrity": "sha1-fM80M3QTk+Iu3hSbXNczq/5ZT/w=",
       "requires": {
         "@types/history": "4.6.0",
-        "@types/react": "15.0.35"
+        "@types/react": "16.0.19"
       }
     },
     "@types/react-router-dom": {
@@ -72,7 +72,7 @@
       "integrity": "sha1-Y4+JypBToPOTfRYE8u1j2sYXLs4=",
       "requires": {
         "@types/history": "4.6.0",
-        "@types/react": "15.0.35",
+        "@types/react": "16.0.19",
         "@types/react-router": "4.0.12"
       }
     },
@@ -82,7 +82,7 @@
       "integrity": "sha1-oknSzkRSl6VXyNF2n1Ht6m9U1qI=",
       "requires": {
         "@types/history": "4.6.0",
-        "@types/react": "15.0.35",
+        "@types/react": "16.0.19",
         "redux": "3.7.1"
       }
     },
@@ -3299,15 +3299,40 @@
       "integrity": "sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4="
     },
     "react": {
-      "version": "15.6.1",
-      "resolved": "https://registry.npmjs.org/react/-/react-15.6.1.tgz",
-      "integrity": "sha1-uqhDTsZ4C96ZfNw4C3nNM7ljk98=",
+      "version": "16.0.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-16.0.0.tgz",
+      "integrity": "sha1-zn348ZQbA28Cssyp29DLHw6FXi0=",
       "requires": {
-        "create-react-class": "15.6.0",
-        "fbjs": "0.8.12",
+        "fbjs": "0.8.16",
         "loose-envify": "1.3.1",
         "object-assign": "4.1.1",
-        "prop-types": "15.5.10"
+        "prop-types": "15.6.0"
+      },
+      "dependencies": {
+        "fbjs": {
+          "version": "0.8.16",
+          "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.8.16.tgz",
+          "integrity": "sha1-XmdDL1UNxBtXK/VYR7ispk5TN9s=",
+          "requires": {
+            "core-js": "1.2.7",
+            "isomorphic-fetch": "2.2.1",
+            "loose-envify": "1.3.1",
+            "object-assign": "4.1.1",
+            "promise": "7.3.1",
+            "setimmediate": "1.0.5",
+            "ua-parser-js": "0.7.13"
+          }
+        },
+        "prop-types": {
+          "version": "15.6.0",
+          "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.6.0.tgz",
+          "integrity": "sha1-zq8IMCL8RrSjX2nhPvda7Q1jmFY=",
+          "requires": {
+            "fbjs": "0.8.16",
+            "loose-envify": "1.3.1",
+            "object-assign": "4.1.1"
+          }
+        }
       }
     },
     "react-deep-force-update": {
